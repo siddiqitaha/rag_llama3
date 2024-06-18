@@ -12,8 +12,8 @@ This project uses a local LLM with Ollama for embeddings and ChromaDB for docume
 
 <div style="display: flex; justify-content: center; gap: 30px; margin-top: 20px;">
   <div style="text-align: center;">
-    <p style="font-size: 20px;"><strong>Vector Store Creation</strong></p>
-    <img src="https://github.com/siddiqitaha/rag_llama3/assets/92089684/950bc8ea-5051-4222-9b42-07cb11bfba83" alt="Vector Store Creation" width="400"/>
+    <p style="font-size: 30px;"><strong>Vector Store Creation</strong></p>
+    <img src="https://github.com/siddiqitaha/rag_llama3/assets/92089684/950bc8ea-5051-4222-9b42-07cb11bfba83" alt="Vector Store Creation" width="500"/>
   </div>
 
 ### Query and Retrieval
@@ -26,8 +26,8 @@ This project uses a local LLM with Ollama for embeddings and ChromaDB for docume
 - **Description**: This section sets up a Gradio-based web interface, allowing users to interact with the LLM by typing questions and adjusting the model's temperature to control response creativity. It provides an easy-to-use platform for querying and receiving answers from the model.
   
   <div style="text-align: center;">
-    <p style="font-size: 20px;"><strong>Gradio Interface</strong></p>
-    <img src="https://github.com/siddiqitaha/rag_llama3/assets/92089684/ecac0f7a-3407-4dd5-a9a8-3e1e39c1c28f" alt="Gradio Interface" width="400"/>
+    <p style="font-size: 30px;"><strong>Gradio Interface</strong></p>
+    <img src="https://github.com/siddiqitaha/rag_llama3/assets/92089684/ecac0f7a-3407-4dd5-a9a8-3e1e39c1c28f" alt="Gradio Interface" width="500"/>
   </div>
 </div>
 
