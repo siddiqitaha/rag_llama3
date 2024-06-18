@@ -7,6 +7,8 @@ This project uses a local LLM with Ollama for embeddings and ChromaDB for docume
   <div style="text-align: center; margin-right: 20px;">
     <img src="https://github.com/siddiqitaha/rag_llama3/assets/92089684/950bc8ea-5051-4222-9b42-07cb11bfba83" alt="Vector Store Creation" width="400"/>
     <p>Vector Store Creation</p>
+  
+  
   </div>
   <div style="text-align: center; margin-left: 20px;">
     <img src="https://github.com/siddiqitaha/rag_llama3/assets/92089684/ecac0f7a-3407-4dd5-a9a8-3e1e39c1c28f" alt="Gradio Interface" width="400"/>
