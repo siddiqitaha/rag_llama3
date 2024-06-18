@@ -1,0 +1,6 @@
+gradio
+PyPDF2
+langchain
+langchain-community
+chromadb
+ollama 
