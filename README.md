@@ -11,9 +11,16 @@ This project uses a local LLM with Ollama for embeddings and ChromaDB for docume
 - **Customizable LLM Responses**: Adjust the LLM's temperature for varied responses.
 - **Gradio Web Interface**: Easy-to-use interface for user interaction.
 
+### Prerequisites
+Before running the software to collect more data for the Vector Database, ensure you have Python installed along with the necessary dependencies:
+- Python 3.8 or newer
+- Install [Ollama](https://ollama.com/download)
+- Install Git
+- Install CUDA (GPU only)
+
 ## Setup Instructions
 
-1. **Install Ollama:**
+1. **Install Ollama (Linux):**
    ```bash
    curl -fsSL https://ollama.com/install.sh | sh
    ```
