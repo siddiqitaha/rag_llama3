@@ -10,11 +10,11 @@ This project uses a local LLM with Ollama for embeddings and ChromaDB for docume
 ### Vector Store Management
 - **Description**: This section initializes the ChromaDB client and creates a collection to store the document embeddings and metadata. It ensures efficient storage and retrieval of the embedded documents.
 
-<div style="display: flex; justify-content: center; gap: 30px; margin-top: 20px;">
-  <div style="text-align: center;">
-    <p style="font-size: 30px;"><strong>Vector Store Creation</strong></p>
-    <img src="https://github.com/siddiqitaha/rag_llama3/assets/92089684/950bc8ea-5051-4222-9b42-07cb11bfba83" alt="Vector Store Creation" width="500"/>
-  </div>
+  <div style="display: flex; justify-content: center; gap: 30px; margin-top: 20px;">
+    <div style="text-align: center;">
+      <p style="font-size: 30px;"><strong>Vector Store Creation</strong></p>
+      <img src="https://github.com/siddiqitaha/rag_llama3/assets/92089684/950bc8ea-5051-4222-9b42-07cb11bfba83" alt="Vector Store Creation" width="500"/>
+    </div>
 
 ### Query and Retrieval
 - **Description**: This component generates an embedding for a user query using Ollama and retrieves the most relevant documents from ChromaDB based on the query embedding. It ensures that the most contextually appropriate documents are selected for answering the user's question.
