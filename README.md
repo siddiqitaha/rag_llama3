@@ -4,17 +4,27 @@
 
 This project uses a local LLM with Ollama for embeddings and ChromaDB for document retrieval. It features a Gradio interface for users to ask questions and adjust response creativity. Documents are pulled from URLs, embedded, stored in ChromaDB, and retrieved to provide concise, sourced answers.
 
+### Data Collection and Preparation
+- **Description**: This part of the program fetches documents from specified URLs, splits them into manageable chunks, and generates embeddings for each chunk using Ollama. The embeddings represent the semantic meaning of the text, making it easier to retrieve relevant information later.
+
+### Vector Store Management
+- **Description**: This section initializes the ChromaDB client and creates a collection to store the document embeddings and metadata. It ensures efficient storage and retrieval of the embedded documents.
+
 <div style="display: flex; justify-content: center; gap: 30px; margin-top: 20px;">
   <div style="text-align: center;">
     <p><strong>Vector Store Creation</strong></p>
     <img src="https://github.com/siddiqitaha/rag_llama3/assets/92089684/950bc8ea-5051-4222-9b42-07cb11bfba83" alt="Vector Store Creation" width="400"/>
   </div>
   
-## **Data Collection and Preparation**
-Description: This part of the program fetches documents from specified URLs, splits them into manageable chunks, and generates embeddings for each chunk using Ollama. The embeddings represent the semantic meaning of the text, making it easier to retrieve relevant information later.
-  
-## **Vector Store Management**
-Description: This section initializes the ChromaDB client and creates a collection to store the document embeddings and metadata. It ensures efficient storage and retrieval of the embedded documents.
+
+### Query and Retrieval
+- **Description**: This component generates an embedding for a user query using Ollama and retrieves the most relevant documents from ChromaDB based on the query embedding. It ensures that the most contextually appropriate documents are selected for answering the user's question.
+
+### Response Generation
+- **Description**: This part uses Ollama's LLM to generate responses based on the retrieved documents and the user query. It combines the context from the documents with the query to provide concise and accurate answers.
+
+### Gradio Web Interface
+- **Description**: This section sets up a Gradio-based web interface, allowing users to interact with the LLM by typing questions and adjusting the model's temperature to control response creativity. It provides an easy-to-use platform for querying and receiving answers from the model.
   
   <div style="text-align: center;">
     <p><strong>Gradio Interface</strong></p>
