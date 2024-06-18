@@ -5,7 +5,7 @@
 This project uses a local LLM with Ollama for embeddings and ChromaDB for document retrieval. It features a Gradio interface for users to ask questions and adjust response creativity. Documents are pulled from URLs, embedded, stored in ChromaDB, and retrieved to provide concise, sourced answers.
     <p>Vector Store Creation</p>
 <div style="display: flex; justify-content: space-around;">
-  <div style="text-align: center; margin-center: 30px;">
+  <div style="center: center; margin-center: 30px;">
     <img src="https://github.com/siddiqitaha/rag_llama3/assets/92089684/950bc8ea-5051-4222-9b42-07cb11bfba83" alt="Vector Store Creation" width="400"/>
 
   
