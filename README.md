@@ -3,6 +3,16 @@
 # Local LLM ChatBot with Embeddings and Retrieval
 
 This project uses a local LLM with Ollama for embeddings and ChromaDB for document retrieval. It features a Gradio interface for users to ask questions and adjust response creativity. Documents are pulled from URLs, embedded, stored in ChromaDB, and retrieved to provide concise, sourced answers.
+<div style="display: flex; justify-content: space-around;">
+  <div style="text-align: center;">
+    <img src="https://github.com/siddiqitaha/rag_llama3/assets/92089684/950bc8ea-5051-4222-9b42-07cb11bfba83" alt="Vector Store Creation" width="400"/>
+    <p>Vector Store Creation</p>
+  </div>
+  <div style="text-align: center;">
+    <img src="https://github.com/siddiqitaha/rag_llama3/assets/92089684/ecac0f7a-3407-4dd5-a9a8-3e1e39c1c28f" alt="Gradio Interface" width="400"/>
+    <p>Gradio Interface</p>
+  </div>
+</div>
 
 ## Features
 
