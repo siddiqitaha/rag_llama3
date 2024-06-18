@@ -14,9 +14,9 @@ This project uses a local LLM with Ollama for embeddings and ChromaDB for docume
 ## Setup Instructions
 
 1. **Install Ollama:**
-```bash
-curl -fsSL https://ollama.com/install.sh | sh
-```
+   ```bash
+   curl -fsSL https://ollama.com/install.sh | sh
+   ```
 
 2. **Clone the Repository:**
    ```bash
