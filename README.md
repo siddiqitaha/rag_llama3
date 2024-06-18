@@ -9,6 +9,7 @@ This project uses a local LLM with Ollama for embeddings and ChromaDB for docume
     <p><strong>Vector Store Creation</strong></p>
     <img src="https://github.com/siddiqitaha/rag_llama3/assets/92089684/950bc8ea-5051-4222-9b42-07cb11bfba83" alt="Vector Store Creation" width="400"/>
   </div>
+  
 ## **Data Collection and Preparation**
 Description: This part of the program fetches documents from specified URLs, splits them into manageable chunks, and generates embeddings for each chunk using Ollama. The embeddings represent the semantic meaning of the text, making it easier to retrieve relevant information later.
   
