@@ -69,7 +69,7 @@ frontend = gr.Interface(
     title="Locally Hosted LLM ChatBot",
     theme="Monochrome",
     description="Enter a question to get an answer. Adjust the model's temperature to control randomness.",
-    css=css.custom_css  # Assuming css.custom_css is a valid path or string
+    css=css.custom_css 
 )
 
 # Launch Gradio interface
