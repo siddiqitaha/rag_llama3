@@ -73,7 +73,11 @@ Before running the software to collect more data for the Vector Database, ensure
    ```bash
    python run_interface.py
    ```
-
+6. **Gradio Credentials**
+   ```bash
+   Username: username
+   Password: password
+   ```
 ## Usage
 
 - Open the Gradio interface in your browser.
